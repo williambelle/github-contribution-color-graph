@@ -7,6 +7,12 @@
   "author": "William Belle <william.belle@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/williambelle/github-contribution-color-graph.git",
-  "scripts": { },
-  "devDependencies": { }
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "load-grunt-config": "^0.19.2"
+  }
 }
