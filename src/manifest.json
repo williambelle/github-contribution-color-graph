@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Contribution Color Graph",
+  "description": "Change colors of contribution graph in GitHub",
+  "manifest_version": 2,
+  "version": "0.0.1",
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
