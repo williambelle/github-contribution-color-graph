@@ -12,5 +12,6 @@
   "strict": true,
   "browser": true,
   "globals": {
+    "chrome": true
   }
 }
