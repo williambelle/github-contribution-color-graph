@@ -1,0 +1,22 @@
+{
+  "name": "GitHub Contribution Color Graph",
+  "description": "Change colors of contribution graph in GitHub",
+  "manifest_version": 2,
+  "version": "0.0.1",
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "46.0.0"
+    }
+  },
+
+  "content_scripts": [{
+    "js": [ "js/contentscript.js" ],
+    "matches": [ "https://github.com/*" ],
+    "run_at": "document_end"
+  }],
+
+  "icons": {
+    "48": "images/icon-48.png"
+  }
+}
