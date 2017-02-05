@@ -16,6 +16,14 @@
     "run_at": "document_end"
   }],
 
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
   "icons": {
     "48": "images/icon-48.png"
   }

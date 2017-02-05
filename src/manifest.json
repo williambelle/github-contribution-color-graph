@@ -10,6 +10,15 @@
     "run_at": "document_end"
   }],
 
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
   "icons": {
     "16": "images/icon-16.png",
     "48": "images/icon-48.png",
