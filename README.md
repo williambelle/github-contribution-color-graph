@@ -1,31 +1,49 @@
-GitHub Contribution Color Graph
-===============================
+<p align="center">
+  <img alt="GitHub Contribution Color Graph" src="https://raw.githubusercontent.com/williambelle/github-contribution-color-graph/master/assets/readme-logo.png">
+</p>
 
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+<p align="center">
+  Change colors of contribution graph in GitHub.
+</p>
 
-Change colors of contribution graph in GitHub.
+<p align="center">
+  <a href="https://travis-ci.org/williambelle/github-contribution-color-graph">
+    <img alt="Travis Status" src="https://travis-ci.org/williambelle/github-contribution-color-graph.svg?branch=master">
+  </a>
+  <a href='https://gemnasium.com/github.com/williambelle/github-contribution-color-graph'>
+    <img src="https://gemnasium.com/badges/github.com/williambelle/github-contribution-color-graph.svg" alt="Dependency Status" />
+  </a>
+  <a href="https://github.com/williambelle/github-contribution-color-graph/issues">
+    <img alt="Github Issues" src="https://img.shields.io/github/issues/williambelle/github-contribution-color-graph.svg">
+  </a>
+  <a href="https://raw.githubusercontent.com/williambelle/github-contribution-color-graph/master/LICENSE">
+    <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  </a>
+</p>
 
-Setup
------
+---
 
-```bash
-$ npm install
-```
+Overview
+--------
 
-Test
-----
+A Web Extension to change colors of contribution graph in GitHub.
 
-```bash
-$ npm test
-```
+Install
+-------
 
-Build
------
+To install the extension:
 
-```bash
-$ grunt build
-```
+  1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
+  2. visit `chrome://extensions` in Chrome and drag the folder.
+
+Features
+--------
+
+Change colors of contribution graph in:
+
+  * Blue
+  * Orange (Halloween)
+  * Pink
 
 Screenshots
 -----------
@@ -36,12 +54,15 @@ Screenshots
 
 ![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
 
+Contributing to GitHub Contribution Color Graph
+-----------------------------------------------
+
+Contributions are always welcome.
+
+See [Contributing](CONTRIBUTING.md).
+
+
 License
 -------
 
 The MIT License (MIT)
-
-[travis-image]: https://travis-ci.org/williambelle/github-contribution-color-graph.svg?branch=master
-[travis-url]: https://travis-ci.org/williambelle/github-contribution-color-graph
-[gemnasium-image]: https://gemnasium.com/badges/github.com/williambelle/github-contribution-color-graph.svg
-[gemnasium-url]: https://gemnasium.com/github.com/williambelle/github-contribution-color-graph
