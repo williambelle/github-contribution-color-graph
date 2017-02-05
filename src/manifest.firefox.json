@@ -6,7 +6,8 @@
 
   "applications": {
     "gecko": {
-      "strict_min_version": "46.0.0"
+      "strict_min_version": "48.0.0",
+      "id": "github-contribution-color-graph@example.com"
     }
   },
 
