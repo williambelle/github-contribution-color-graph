@@ -27,10 +27,14 @@ Build
 $ grunt build
 ```
 
-Screenshot
-----------
+Screenshots
+-----------
 
-![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/screenshot.png)
+![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
+
+![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-orange.png)
+
+![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
 
 License
 -------
