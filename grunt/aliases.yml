@@ -1,3 +1,15 @@
 test:
   - 'jshint:all'
   - 'jscs:all'
+
+build:
+  - 'test'
+  - 'copy:buildChrome'
+  - 'copy:buildFirefox'
+
+serve:
+  - 'build'
+  - 'watch'
+
+default:
+  - 'serve'
