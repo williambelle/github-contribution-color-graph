@@ -1,0 +1,30 @@
+'use strict';
+
+var green  = ['#eeeeee', '#d6e685', '#8cc665', '#44a340', '#1e6823'];
+var orange = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
+var pink   = ['#eeeeee', '#ffc0cb', '#ff69b4', '#ff1493', '#ae0e64'];
+
+function applyColorToRects(color) {
+  var rects = document.getElementsByTagName('rect');
+
+  for (var i = 0, l = rects.length; i < l; i++) {
+    var fill = rects[i].getAttribute('fill');
+    for (var x = 0, y = green.length; x < y; x++) {
+      if (fill === green[x]) {
+        rects[i].style.fill = color[x];
+      }
+    }
+  }
+}
+
+function applyColorToLegend(color) {
+  var doc = document.getElementsByClassName('legend');
+  var lis = doc[0].getElementsByTagName('li');
+
+  for (var i = 1, l = lis.length; i < l; i++) {
+    lis[i].style.backgroundColor = color[i];
+  }
+}
+
+applyColorToRects(orange);
+applyColorToLegend(orange);
