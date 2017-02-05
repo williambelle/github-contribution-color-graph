@@ -4,6 +4,12 @@ var green  = ['#eeeeee', '#d6e685', '#8cc665', '#44a340', '#1e6823'];
 var orange = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 var pink   = ['#eeeeee', '#ffc0cb', '#ff69b4', '#ff1493', '#ae0e64'];
 
+var colors = {
+  green:  green,
+  orange: orange,
+  pink:   pink,
+};
+
 function applyColorToRects(color) {
   var rects = document.getElementsByTagName('rect');
 
@@ -26,5 +32,11 @@ function applyColorToLegend(color) {
   }
 }
 
-applyColorToRects(orange);
-applyColorToLegend(orange);
+function applyOptions() {
+  chrome.storage.local.get('favoriteColor', function(color) {
+    applyColorToRects(colors[color.favoriteColor]);
+    applyColorToLegend(colors[color.favoriteColor]);
+  });
+}
+
+applyOptions();
