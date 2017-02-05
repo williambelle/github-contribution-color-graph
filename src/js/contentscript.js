@@ -36,8 +36,13 @@ function applyColorToLegend(color) {
 
 function applyOptions() {
   chrome.storage.local.get('favoriteColor', function(color) {
-    applyColorToRects(colors[color.favoriteColor]);
-    applyColorToLegend(colors[color.favoriteColor]);
+    if (color.favoriteColor) {
+      applyColorToRects(colors[color.favoriteColor]);
+      applyColorToLegend(colors[color.favoriteColor]);
+    } else {
+      applyColorToRects(orange);
+      applyColorToLegend(orange);
+    }
   });
 }
 

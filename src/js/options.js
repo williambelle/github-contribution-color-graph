@@ -15,7 +15,7 @@ function saveOptions() {
 
 function restoreOptions() {
   chrome.storage.local.get({
-    favoriteColor: 'green',
+    favoriteColor: 'orange',
   }, function(items) {
     document.getElementById('color').value = items.favoriteColor;
   });
