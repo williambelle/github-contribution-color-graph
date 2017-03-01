@@ -1,6 +1,6 @@
 'use strict';
 
-var green  = ['#eeeeee', '#d6e685', '#8cc665', '#44a340', '#1e6823'];
+var green  = ['#eeeeee', '#c6e48b', '#7bc96f', '#239a3b', '#196127'];
 var orange = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 var pink   = ['#eeeeee', '#ffc0cb', '#ff89c4', '#ff1493', '#ae0e64'];
 var blue   = ['#eeeeee', '#87cefa', '#1e90ff', '#0000ff', '#000080'];
