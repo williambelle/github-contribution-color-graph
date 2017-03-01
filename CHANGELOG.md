@@ -1,6 +1,11 @@
 GitHub Contribution Color Graph Changelog
 =========================================
 
+### v1.0.1 / 2017-03-01
+
+  - Update green colors
+  - Set a darker pink color
+
 ### v1.0.0 / 2017-02-05
 
   - Add colors pink and blue
