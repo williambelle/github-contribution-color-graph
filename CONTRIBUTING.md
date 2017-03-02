@@ -27,6 +27,13 @@ Build
 $ grunt build
 ```
 
+Package
+-------
+
+```bash
+$ grunt package
+```
+
 License
 -------
 
