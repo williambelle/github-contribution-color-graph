@@ -2,7 +2,7 @@
 
 var green  = ['#eeeeee', '#c6e48b', '#7bc96f', '#239a3b', '#196127'];
 var orange = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
-var pink   = ['#eeeeee', '#ffc0cb', '#ff89c4', '#ff1493', '#8a0b4f'];
+var pink   = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
 var blue   = ['#eeeeee', '#87cefa', '#1e90ff', '#0000ff', '#000080'];
 
 var colors = {
