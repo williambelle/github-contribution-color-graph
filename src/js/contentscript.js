@@ -7,6 +7,7 @@ var green     = ['#eeeeee', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
 var halloween = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 var orange    = ['#eeeeee', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
 var pink      = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
+var purple    = ['#eeeeee', '#e1bee7', '#ba68c8', '#8e24aa', '#4a148c'];
 var red       = ['#eeeeee', '#ffcdd2', '#e57373', '#e53935', '#b71c1c'];
 
 var colors = {
@@ -16,6 +17,7 @@ var colors = {
   halloween: halloween,
   orange:    orange,
   pink:      pink,
+  purple:    purple,
   red:       red,
 };
 
