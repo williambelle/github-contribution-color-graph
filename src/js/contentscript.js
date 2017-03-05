@@ -1,15 +1,17 @@
 'use strict';
 
-var green  = ['#eeeeee', '#c6e48b', '#7bc96f', '#239a3b', '#196127'];
-var orange = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
-var pink   = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
-var blue   = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
+var blue      = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
+var green     = ['#eeeeee', '#c6e48b', '#7bc96f', '#239a3b', '#196127'];
+var halloween = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
+var orange    = ['#eeeeee', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
+var pink      = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
 
 var colors = {
-  green:  green,
-  orange: orange,
-  pink:   pink,
-  blue:   blue,
+  blue:      blue,
+  green:     green,
+  halloween: halloween,
+  orange:    orange,
+  pink:      pink,
 };
 
 function applyColorToRects(color) {
@@ -40,8 +42,8 @@ function applyOptions() {
       applyColorToRects(colors[color.favoriteColor]);
       applyColorToLegend(colors[color.favoriteColor]);
     } else {
-      applyColorToRects(orange);
-      applyColorToLegend(orange);
+      applyColorToRects(halloween);
+      applyColorToLegend(halloween);
     }
   });
 }
