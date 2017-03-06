@@ -6,6 +6,7 @@ var blue       = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
 var deeppurple = ['#eeeeee', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
 var green      = ['#eeeeee', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
 var halloween  = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
+var indigo     = ['#eeeeee', '#c5cae9', '#7986cb', '#3949ab', '#1a237e'];
 var orange     = ['#eeeeee', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
 var pink       = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
 var purple     = ['#eeeeee', '#e1bee7', '#ba68c8', '#8e24aa', '#4a148c'];
@@ -17,6 +18,7 @@ var colors = {
   blue:       blue,
   green:      green,
   halloween:  halloween,
+  indigo:     indigo,
   orange:     orange,
   pink:       pink,
   purple:     purple,
