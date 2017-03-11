@@ -6,6 +6,7 @@ var halloween   = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 
 // Themes from Material design
 var blue        = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
+var cyan        = ['#eeeeee', '#b2ebf2', '#4dd0e1', '#00acc1', '#006064'];
 var deeppurple  = ['#eeeeee', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
 var green       = ['#eeeeee', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
 var indigo      = ['#eeeeee', '#c5cae9', '#7986cb', '#3949ab', '#1a237e'];
@@ -24,8 +25,9 @@ var colors = {
   github:      github,
   halloween:   halloween,
 
-  deeppurple:  deeppurple,
   blue:        blue,
+  cyan:        cyan,
+  deeppurple:  deeppurple,
   green:       green,
   indigo:      indigo,
   lightblue:   lightblue,
