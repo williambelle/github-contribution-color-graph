@@ -15,6 +15,7 @@ var orange      = ['#eeeeee', '#ffe0b2', '#ffb74d', '#fb8c00', '#e65100'];
 var pink        = ['#eeeeee', '#f8bbd0', '#f06292', '#e91e63', '#880e4f'];
 var purple      = ['#eeeeee', '#e1bee7', '#ba68c8', '#8e24aa', '#4a148c'];
 var red         = ['#eeeeee', '#ffcdd2', '#e57373', '#e53935', '#b71c1c'];
+var teal        = ['#eeeeee', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
 
 // Theme from MoonAntonio
 var moon        = ['#eeeeee', '#6bcdff', '#00a1f3', '#48009a', '#4f2266'];
@@ -35,6 +36,7 @@ var colors = {
   pink:        pink,
   purple:      purple,
   red:         red,
+  teal:        teal,
 
   moon:        moon,
   psychedelic: psychedelic,
