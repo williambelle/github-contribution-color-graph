@@ -7,6 +7,7 @@ var halloween   = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 // Themes from Material design
 var amber       = ['#eeeeee', '#ffecb3', '#ffd54f', '#ffb300', '#ff6f00'];
 var blue        = ['#eeeeee', '#bbdefb', '#64b5f6', '#1e88e5', '#0d47a1'];
+var brown       = ['#eeeeee', '#d7ccc8', '#a1887f', '#6d4c41', '#3e2723'];
 var cyan        = ['#eeeeee', '#b2ebf2', '#4dd0e1', '#00acc1', '#006064'];
 var deeporange  = ['#eeeeee', '#ffccbc', '#ff8a65', '#f4511e', '#bf360c'];
 var deeppurple  = ['#eeeeee', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
@@ -33,6 +34,7 @@ var colors = {
 
   amber:       amber,
   blue:        blue,
+  brown:       brown,
   cyan:        cyan,
   deeporange:  deeporange,
   deeppurple:  deeppurple,
