@@ -36,23 +36,16 @@ To install the extension:
   1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
   2. visit `chrome://extensions` in Chrome and drag the folder.
 
-Features
---------
-
-Change colors of contribution graph in:
-
-  * Blue
-  * Orange (Halloween)
-  * Pink
-
 Screenshots
 -----------
 
-![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
+See all available themes [here](docs/THEMES.md).
 
-![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-orange.png)
+![Blue](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
 
-![Screenshot](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
+![Orange](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-orange.png)
+
+![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
 
 Contributing to GitHub Contribution Color Graph
 -----------------------------------------------
@@ -61,6 +54,10 @@ Contributions are always welcome.
 
 See [Contributing](CONTRIBUTING.md).
 
+Contributors
+------------
+
+  * [MoonAntonio](https://github.com/MoonAntonio)
 
 License
 -------
