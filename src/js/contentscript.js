@@ -12,6 +12,7 @@ var cyan        = ['#eeeeee', '#b2ebf2', '#4dd0e1', '#00acc1', '#006064'];
 var deeporange  = ['#eeeeee', '#ffccbc', '#ff8a65', '#f4511e', '#bf360c'];
 var deeppurple  = ['#eeeeee', '#d1c4e9', '#9575cd', '#5e35b1', '#311b92'];
 var green       = ['#eeeeee', '#c8e6c9', '#81c784', '#43a047', '#1b5e20'];
+var grey        = ['#eeeeee', '#e0e0e0', '#9e9e9e', '#616161', '#212121'];
 var indigo      = ['#eeeeee', '#c5cae9', '#7986cb', '#3949ab', '#1a237e'];
 var lightblue   = ['#eeeeee', '#b3e5fc', '#4fc3f7', '#039be5', '#01579b'];
 var lightgreen  = ['#eeeeee', '#dcedc8', '#aed581', '#7cb342', '#33691e'];
@@ -39,6 +40,7 @@ var colors = {
   deeporange:  deeporange,
   deeppurple:  deeppurple,
   green:       green,
+  grey:        grey,
   indigo:      indigo,
   lightblue:   lightblue,
   lightgreen:  lightgreen,
