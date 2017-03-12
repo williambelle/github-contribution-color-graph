@@ -1,6 +1,10 @@
 GitHub Contribution Color Graph Changelog
 =========================================
 
+### v1.1.0 / 2017-03-12
+
+  - Add more themes
+
 ### v1.0.1 / 2017-03-01
 
   - Update green colors
