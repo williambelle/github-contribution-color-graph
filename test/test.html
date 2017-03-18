@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Mocha Test</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" type="text/css" />
+</head>
+
+<body>
+  <!-- Required for browser reporter -->
+  <div id="mocha"></div>
+
+  <!-- Mocha -->
+  <script src="../node_modules/mocha/mocha.js" type="text/javascript"></script>
+  <script type="text/javascript" charset="utf-8">
+    mocha.setup('bdd');
+  </script>
+
+  <script src="../node_modules/chai/chai.js" type="text/javascript"></script>
+  <script type="text/javascript" charset="utf-8">
+    // Setup chai
+    var should = chai.should();
+  </script>
+
+  <!-- Includes -->
+  <script src="../src/js/contentscript.js" type="text/javascript"></script>
+
+  <!-- Spec files -->
+  <script src="test.js" type="text/javascript"></script>
+
+  <!-- Run mocha -->
+  <script type="text/javascript" charset="utf-8">
+    mocha.run();
+  </script>
+</body>
+
+</html>

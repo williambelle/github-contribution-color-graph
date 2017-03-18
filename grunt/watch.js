@@ -2,6 +2,7 @@ module.exports = {
   build: {
     files: [
       'src/**/*',
+      'test/**/*',
     ],
     tasks: ['build'],
   },

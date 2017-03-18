@@ -59,6 +59,15 @@ var colors = {
   yellow:      yellow,
 };
 
+function hex(x) {
+  return ('0' + parseInt(x).toString(16)).slice(-2);
+}
+
+function rgb2hex(rgb) {
+  rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+  return '#' + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
+
 function applyColorToRects(color) {
   var rects = document.getElementsByTagName('rect');
 
@@ -81,14 +90,29 @@ function applyColorToLegend(color) {
   }
 }
 
+function applyColorToProgressBar(color) {
+  var progress = document.getElementsByClassName('progress-bar');
+
+  for (var i = 0, l = progress.length; i < l; i++) {
+    var background = rgb2hex(progress[i].style.backgroundColor);
+    for (var x = 0, y = github.length; x < y; x++) {
+      if (background === github[x]) {
+        progress[i].style.backgroundColor = color[x];
+      }
+    }
+  }
+}
+
 function applyOptions() {
   chrome.storage.local.get('favoriteColor', function(color) {
     if (color.favoriteColor) {
       applyColorToRects(colors[color.favoriteColor]);
       applyColorToLegend(colors[color.favoriteColor]);
+      applyColorToProgressBar(colors[color.favoriteColor]);
     } else {
       applyColorToRects(halloween);
       applyColorToLegend(halloween);
+      applyColorToProgressBar(halloween);
     }
   });
 }

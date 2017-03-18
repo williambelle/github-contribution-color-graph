@@ -12,6 +12,10 @@
   "strict": true,
   "browser": true,
   "globals": {
-    "chrome": true
+    "chrome": true,
+    "describe": true,
+    "hex": true,
+    "it": true,
+    "rgb2hex": true
   }
 }

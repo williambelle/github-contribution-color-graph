@@ -1,6 +1,7 @@
 test:
   - 'jshint:all'
   - 'jscs:all'
+  - 'mocha'
 
 build:
   - 'test'
