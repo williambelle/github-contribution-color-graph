@@ -83,10 +83,13 @@ function applyColorToRects(color) {
 
 function applyColorToLegend(color) {
   var doc = document.getElementsByClassName('legend');
-  var lis = doc[0].getElementsByTagName('li');
 
-  for (var i = 1, l = lis.length; i < l; i++) {
-    lis[i].style.backgroundColor = color[i];
+  if (doc[0]) {
+    var lis = doc[0].getElementsByTagName('li');
+
+    for (var i = 1, l = lis.length; i < l; i++) {
+      lis[i].style.backgroundColor = color[i];
+    }
   }
 }
 
