@@ -1,6 +1,10 @@
 GitHub Contribution Color Graph Changelog
 =========================================
 
+### v1.2.1 / 2017-04-01
+
+  - Fix undefined tag name legend
+
 ### v1.2.0 / 2017-03-18
 
   - Apply colors to progress bar
