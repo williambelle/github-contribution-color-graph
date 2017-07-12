@@ -108,15 +108,15 @@ function applyColorToProgressBar(color) {
 
 function applyOptions() {
   chrome.storage.local.get('favoriteColor', function(color) {
-    if (color.favoriteColor) {
-      applyColorToRects(colors[color.favoriteColor]);
-      applyColorToLegend(colors[color.favoriteColor]);
-      applyColorToProgressBar(colors[color.favoriteColor]);
-    } else {
-      applyColorToRects(halloween);
-      applyColorToLegend(halloween);
-      applyColorToProgressBar(halloween);
+    if (!color.favoriteColor) {
+      color.favoriteColor = halloween;
     }
+    applyColorToRects(colors[color.favoriteColor]);
+    applyColorToLegend(colors[color.favoriteColor]);
+    setTimeout(function() {
+      applyColorToProgressBar(colors[color.favoriteColor]);
+    }, 1000);
+
   });
 }
 
