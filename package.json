@@ -7,6 +7,9 @@
   "author": "William Belle <william.belle@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/williambelle/github-contribution-color-graph.git",
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "grunt test"
   },
