@@ -120,4 +120,24 @@ function applyOptions() {
   });
 }
 
-applyOptions();
+(function() {
+  // Call applyOptions after document load
+  applyOptions();
+
+  // Observe DOM modifications
+  var container = document.getElementById('js-pjax-container');
+
+  if (container !== undefined) {
+    var observer = new MutationObserver(function(mutations) {
+      var graph = document.getElementsByClassName('js-contribution-graph')[0];
+
+      if (graph !== undefined) {
+        applyOptions();
+      }
+    });
+
+    var config = { subtree: true, childList: true };
+
+    observer.observe(container, config);
+  }
+})();
