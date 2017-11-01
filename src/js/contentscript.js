@@ -127,11 +127,11 @@ function applyOptions() {
   // Observe DOM modifications
   var container = document.getElementById('js-pjax-container');
 
-  if (container !== undefined) {
+  if (container) {
     var observer = new MutationObserver(function(mutations) {
       var graph = document.getElementsByClassName('js-contribution-graph')[0];
 
-      if (graph !== undefined) {
+      if (graph) {
         applyOptions();
       }
     });
