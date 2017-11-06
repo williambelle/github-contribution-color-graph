@@ -1,6 +1,11 @@
 GitHub Contribution Color Graph Changelog
 =========================================
 
+### v1.3.0 / 2017-11-06
+
+  - Apply theme on DOM modifications (Fix SPA)
+  - Update dev dependencies
+
 ### v1.2.2 / 2017-07-12
 
   - Fix progress bar colors
