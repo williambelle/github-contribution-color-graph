@@ -19,6 +19,9 @@
   <a href="https://raw.githubusercontent.com/williambelle/github-contribution-color-graph/master/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   </a>
+  <a href='https://github.com/williambelle/github-contribution-color-graph/tags'>
+    <img alt="GitHub Tag" src="https://img.shields.io/github/tag/williambelle/github-contribution-color-graph.svg" />
+  </a>
 </p>
 
 ---
