@@ -10,8 +10,8 @@
   <a href="https://travis-ci.org/williambelle/github-contribution-color-graph">
     <img alt="Travis Status" src="https://travis-ci.org/williambelle/github-contribution-color-graph.svg?branch=master">
   </a>
-  <a href='https://gemnasium.com/github.com/williambelle/github-contribution-color-graph'>
-    <img src="https://gemnasium.com/badges/github.com/williambelle/github-contribution-color-graph.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/williambelle/github-contribution-color-graph">
+    <img alt="Dependency Status" src="https://david-dm.org/williambelle/github-contribution-color-graph/status.svg"/>
   </a>
   <a href="https://github.com/williambelle/github-contribution-color-graph/issues">
     <img alt="Github Issues" src="https://img.shields.io/github/issues/williambelle/github-contribution-color-graph.svg">
