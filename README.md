@@ -14,7 +14,7 @@
     <img alt="Dependency Status" src="https://david-dm.org/williambelle/github-contribution-color-graph/status.svg"/>
   </a>
   <a href="https://github.com/williambelle/github-contribution-color-graph/issues">
-    <img alt="Github Issues" src="https://img.shields.io/github/issues/williambelle/github-contribution-color-graph.svg">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/williambelle/github-contribution-color-graph.svg">
   </a>
   <a href="https://raw.githubusercontent.com/williambelle/github-contribution-color-graph/master/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -50,8 +50,8 @@ See all available themes [here](docs/THEMES.md).
 
 ![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
 
-Contributing to GitHub Contribution Color Graph
------------------------------------------------
+Contributing
+------------
 
 Contributions are always welcome.
 

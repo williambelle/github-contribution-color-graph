@@ -11,6 +11,9 @@
     "node": ">=4"
   },
   "scripts": {
+    "build": "grunt build",
+    "package": "grunt package",
+    "serve": "grunt serve",
     "test": "grunt test"
   },
   "devDependencies": {

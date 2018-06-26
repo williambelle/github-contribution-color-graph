@@ -10,22 +10,30 @@ Setup
 -----
 
 ```bash
-$ npm install
+npm i
 ```
 
 Test
 ----
 
 ```bash
-$ npm test
+npm t
 ```
 
 Build
 -----
 
 ```bash
-$ grunt build
+npm run build
 ```
+
+or
+
+```bash
+npm run serve
+```
+
+to update source continuously.
 
 Run
 ---
@@ -35,7 +43,7 @@ Chrome:
   1. Open Tools -> Extensions
   2. Check the "Developer Mode" option (if not already)
   3. Select "Load unpacked extension"
-  4. Navigate to the project main folder and click select
+  4. Navigate to the project `github-contribution-color-graph/dist/chrome` and click select
 
 Firefox:
 
@@ -43,13 +51,20 @@ Firefox:
   2. Click "Debug Add-ons"
   3. Check the "Enable add-on debugging" option (if not already)
   4. Select "Load Temporary Add-on"
-  5. Navigate to the project main folder and click open
+  5. Navigate to the project `github-contribution-color-graph/dist/firefox` and click open
+  
+Opera:
+
+  1. View -> Show Extensions
+  2. Click on "Developer Mode" button (if not already)
+  3. Click on "Load Unpacked Extension..."
+  4. Navigate to the project `github-contribution-color-graph/dist/chrome` and click select
 
 Package
 -------
 
 ```bash
-$ grunt package
+npm run package
 ```
 
 License

@@ -8,7 +8,7 @@ build:
   - 'copy:buildFirefox'
 
 package:
-  - build
+  - 'build'
   - 'compress'
 
 serve:
