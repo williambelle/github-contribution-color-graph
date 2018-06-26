@@ -1,5 +1,5 @@
-module.exports = function(grunt) {
-  'use strict';
+'use strict';
 
+module.exports = function (grunt) {
   require('load-grunt-config')(grunt);
 };

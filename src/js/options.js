@@ -1,22 +1,22 @@
 'use strict';
 
-function saveOptions() {
+function saveOptions () {
   var color = document.getElementById('color').value;
   chrome.storage.local.set({
-    favoriteColor: color,
-  }, function() {
+    favoriteColor: color
+  }, function () {
     var status = document.getElementById('status');
     status.textContent = 'Options saved.';
-    setTimeout(function() {
+    setTimeout(function () {
       status.textContent = '';
     }, 750);
   });
 }
 
-function restoreOptions() {
+function restoreOptions () {
   chrome.storage.local.get({
-    favoriteColor: 'halloween',
-  }, function(items) {
+    favoriteColor: 'halloween'
+  }, function (items) {
     document.getElementById('color').value = items.favoriteColor;
   });
 }

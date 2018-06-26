@@ -1,12 +1,14 @@
+'use strict';
+
 module.exports = {
   build: {
     files: [
       'src/**/*',
-      'test/**/*',
+      'test/**/*'
     ],
-    tasks: ['build'],
+    tasks: ['build']
   },
   options: {
-    livereload: true,
-  },
+    livereload: true
+  }
 };

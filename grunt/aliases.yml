@@ -1,6 +1,5 @@
 test:
-  - 'jshint:all'
-  - 'jscs:all'
+  - 'eslint'
   - 'mocha'
 
 build:
