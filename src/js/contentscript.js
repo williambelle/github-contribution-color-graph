@@ -25,6 +25,9 @@ var red         = ['#eeeeee', '#ffcdd2', '#e57373', '#e53935', '#b71c1c'];
 var teal        = ['#eeeeee', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
 var yellowMd    = ['#eeeeee', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
 
+// Theme from Me
+var summer      = ['#eeeeee', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
+
 // Theme from MoonAntonio
 var moon        = ['#eeeeee', '#6bcdff', '#00a1f3', '#48009a', '#4f2266'];
 var psychedelic = ['#eeeeee', '#faafe1', '#fb6dcc', '#fa3fbc', '#ff00ab'];
@@ -53,6 +56,8 @@ var colors = {
   red: red,
   teal: teal,
   yellowMd: yellowMd,
+
+  summer: summer,
 
   moon: moon,
   psychedelic: psychedelic,
