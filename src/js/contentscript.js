@@ -26,6 +26,7 @@ var teal        = ['#eeeeee', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
 var yellowMd    = ['#eeeeee', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
 
 // Theme from Me
+var unicorn     = ['#eeeeee', '#6dc5fb', '#f6f68c', '#8affa4', '#f283d1'];
 var summer      = ['#eeeeee', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
 
 // Theme from MoonAntonio
@@ -58,6 +59,7 @@ var colors = {
   yellowMd: yellowMd,
 
   summer: summer,
+  unicorn: unicorn,
 
   moon: moon,
   psychedelic: psychedelic,
