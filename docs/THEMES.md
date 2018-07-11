@@ -89,6 +89,16 @@ Themes
 
 ---
 
+**Summer**
+
+![Summer](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-summer.png)
+
+**Unicorn**
+
+![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
+
+---
+
 **Moon**
 
 ![Moon](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-moon.png)
