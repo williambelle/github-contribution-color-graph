@@ -1,5 +1,15 @@
-GitHub Contribution Color Graph Changelog
-=========================================
+Changelog
+=========
+
+### v1.4.0 / 2018-07-11
+
+  - Add unicorn theme
+  - Add summer theme
+  - Move to eslint
+  - Move to david-dm (watching deps)
+  - Improve contributing guide
+  - Update dev dependencies
+  - Disable `package-lock.json`
 
 ### v1.3.0 / 2017-11-06
 
