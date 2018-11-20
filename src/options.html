@@ -4,13 +4,22 @@
   <meta charset="utf-8" />
   <title>GitHub Contribution Color Graph Options</title>
   <style>
-    body: { padding: 10px; }
+    .choice {
+      line-height: 30px;
+    }
+    #theme {
+      width: 150px;
+    }
+    #save {
+      text-align: center;
+      width: 50px;
+    }
   </style>
 </head>
 
 <body>
-  Choose graph color:
-  <select id="color">
+  <span class="choice">Choose graph color:</span>
+  <select id="color" class="browser-style">
     <option value="github">GitHub Default</option>
     <option value="halloween">Halloween</option>
     <option disabled>──────────</option>
@@ -46,7 +55,7 @@
   <br />
   <div id="status" style="color:green"></div>
   <br />
-  <button id="save">Save</button>
+  <button id="save" class="browser-style">Save</button>
 
   <script src="js/options.js"></script>
 </body>
