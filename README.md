@@ -34,7 +34,11 @@ A Web Extension to change colors of contribution graph in GitHub.
 Install
 -------
 
-To install the extension:
+[link-ff]:https://addons.mozilla.org/en-US/firefox/addon/github-contribution-color/
+
+  * [**Firefox** add-on][link-ff] - [<img valign="middle" src="https://img.shields.io/amo/v/github-contribution-color.svg?label=%20">][link-ff]
+
+or
 
   1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
   2. visit `chrome://extensions` in Chrome and drag the folder.
