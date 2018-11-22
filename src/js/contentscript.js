@@ -100,6 +100,30 @@ function applyColorToLegend (color) {
   }
 }
 
+function applyColorToActivity (color) {
+  var path = document.getElementsByClassName('js-highlight-blob');
+  if (path[0]) {
+    for (var i = 0, l = path.length; i < l; i++) {
+      path[i].setAttribute('fill', color[2]);
+      path[i].setAttribute('stroke', color[2]);
+    }
+  }
+
+  var axis = document.getElementsByClassName('activity-overview-axis');
+  if (axis[0]) {
+    for (var j = 0, m = axis.length; j < m; j++) {
+      axis[j].style.stroke = color[3];
+    }
+  }
+
+  var points = document.getElementsByClassName('activity-overview-point');
+  if (points[0]) {
+    for (var k = 0, n = points.length; k < n; k++) {
+      points[k].style.stroke = color[3];
+    }
+  }
+}
+
 function applyColorToProgressBar (color) {
   var progress = document.getElementsByClassName('progress-bar');
 
@@ -120,6 +144,7 @@ function applyOptions () {
     }
     applyColorToRects(colors[color.favoriteColor]);
     applyColorToLegend(colors[color.favoriteColor]);
+    applyColorToActivity(colors[color.favoriteColor]);
     setTimeout(function () {
       applyColorToProgressBar(colors[color.favoriteColor]);
     }, 1000);
