@@ -43,16 +43,12 @@ or
   1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
   2. visit `chrome://extensions` in Chrome and drag the folder.
 
-Screenshots
------------
+Screenshot
+----------
 
 See all available themes [here](docs/THEMES.md).
 
-![Blue](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
-
-![Orange](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-orange.png)
-
-![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)
+![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
 
 Contributing
 ------------
