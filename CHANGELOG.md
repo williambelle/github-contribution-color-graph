@@ -1,6 +1,13 @@
 Changelog
 =========
 
+### v1.5.0 / 2018-11-23
+
+  - Colorize activity overview
+  - Improve options layout on Firefox
+  - Update dev dependencies
+  - Fix `strict_min_version` format for Firefox
+
 ### v1.4.0 / 2018-07-11
 
   - Add unicorn theme
