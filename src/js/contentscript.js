@@ -140,7 +140,7 @@ function applyColorToProgressBar (color) {
 function applyOptions () {
   chrome.storage.local.get('favoriteColor', function (color) {
     if (!color.favoriteColor) {
-      color.favoriteColor = halloween;
+      color.favoriteColor = 'halloween';
     }
     applyColorToRects(colors[color.favoriteColor]);
     applyColorToLegend(colors[color.favoriteColor]);
