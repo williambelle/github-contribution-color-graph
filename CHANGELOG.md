@@ -1,6 +1,10 @@
 Changelog
 =========
 
+### v1.5.1 / 2018-11-29
+
+  - Fix default color
+
 ### v1.5.0 / 2018-11-23
 
   - Colorize activity overview
