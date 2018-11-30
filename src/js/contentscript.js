@@ -160,7 +160,8 @@ function applyOptions () {
 
   if (container) {
     var observer = new MutationObserver(function (mutations) {
-      var graph = document.getElementsByClassName('js-contribution-graph')[0];
+      var graph =
+        document.getElementsByClassName('js-yearly-contributions')[0];
 
       if (graph) {
         applyOptions();
