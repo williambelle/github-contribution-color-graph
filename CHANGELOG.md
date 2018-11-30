@@ -1,6 +1,10 @@
 Changelog
 =========
 
+### v1.5.2 / 2018-11-30
+
+  - Fix contribution graph class name
+
 ### v1.5.1 / 2018-11-29
 
   - Fix default color
