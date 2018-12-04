@@ -31,6 +31,12 @@ Overview
 
 A Web Extension to change colors of contribution graph in GitHub.
 
+Features:
+
+  * Colorize contribution graph and legend
+  * Colorize activity overview graph
+  * Colorize activity listing progress bar
+
 Install
 -------
 
