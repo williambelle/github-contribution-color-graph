@@ -125,13 +125,18 @@ function applyColorToActivity (color) {
 }
 
 function applyColorToProgressBar (color) {
-  var progress = document.getElementsByClassName('progress-bar');
+  var activityListing = document.getElementsByClassName(
+    'activity-listing contribution-activity'
+  );
+  if (activityListing[0]) {
+    var progress = document.getElementsByClassName('progress-bar');
 
-  for (var i = 0, l = progress.length; i < l; i++) {
-    var background = rgb2hex(progress[i].style.backgroundColor);
-    for (var x = 0, y = github.length; x < y; x++) {
-      if (background === github[x]) {
-        progress[i].style.backgroundColor = color[x];
+    for (var i = 0, l = progress.length; i < l; i++) {
+      var background = rgb2hex(progress[i].style.backgroundColor);
+      for (var x = 0, y = github.length; x < y; x++) {
+        if (background === github[x]) {
+          progress[i].style.backgroundColor = color[x];
+        }
       }
     }
   }
