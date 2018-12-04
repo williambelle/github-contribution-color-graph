@@ -2,7 +2,7 @@
   "name": "GitHub Contribution Color Graph",
   "description": "Change colors of contribution graph in GitHub",
   "manifest_version": 2,
-  "version": "1.5.2",
+  "version": "1.5.3",
 
   "applications": {
     "gecko": {
