@@ -49,12 +49,19 @@ or
   1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
   2. visit `chrome://extensions` in Chrome and drag the folder.
 
-Screenshot
-----------
+Screenshots
+-----------
 
 See all available themes [here](docs/THEMES.md).
 
-![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
+Halloween                           |  Blue
+:----------------------------------:|:--------------------------------------:		
+![Halloween](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-halloween.png)|![Blue](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
+
+Pink                                |  Unicorn
+:----------------------------------:|:--------------------------------------:		
+![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)|![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
+
 
 Contributing
 ------------
