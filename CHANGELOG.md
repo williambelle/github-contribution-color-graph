@@ -1,6 +1,11 @@
 Changelog
 =========
 
+### v1.5.3 / 2018-12-04
+
+  - Colorize progress bar only on profile (to avoid error elsewhere)
+  - Improve readme
+
 ### v1.5.2 / 2018-11-30
 
   - Fix contribution graph class name
