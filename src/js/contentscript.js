@@ -28,6 +28,7 @@ var yellowMd    = ['#eeeeee', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
 // Theme from Me
 var unicorn     = ['#eeeeee', '#6dc5fb', '#f6f68c', '#8affa4', '#f283d1'];
 var summer      = ['#eeeeee', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
+var sunset      = ['#eeeeee', '#fed800', '#ff6f01', '#fd2f24', '#811d5e'];
 
 // Theme from MoonAntonio
 var moon        = ['#eeeeee', '#6bcdff', '#00a1f3', '#48009a', '#4f2266'];
@@ -60,6 +61,7 @@ var colors = {
 
   summer: summer,
   unicorn: unicorn,
+  sunset: sunset,
 
   moon: moon,
   psychedelic: psychedelic,
