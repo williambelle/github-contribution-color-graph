@@ -6,7 +6,7 @@ module.exports = function (grunt, options) {
       files: [{
         expand: true,
         cwd: 'src/',
-        src: ['js/**', 'images/**', '*.html', 'manifest.json'],
+        src: ['js/**', 'css/**', 'images/**', '*.html', 'manifest.json'],
         dest: 'dist/chrome/',
         nonull: true
       }]
@@ -15,7 +15,7 @@ module.exports = function (grunt, options) {
       files: [{
         expand: true,
         cwd: 'src/',
-        src: ['js/**', 'images/**', '*.html'],
+        src: ['js/**', 'css/**', 'images/**', '*.html'],
         dest: 'dist/firefox/',
         nonull: true
       }, {
