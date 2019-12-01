@@ -1,62 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>GitHub Contribution Color Graph Options</title>
-  <style>
-    .choice {
-      line-height: 30px;
-    }
-    #theme {
-      width: 150px;
-    }
-    #save {
-      text-align: center;
-      width: 50px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/options.css">
 </head>
 
 <body>
-  <span class="choice">Choose graph color:</span>
-  <select id="color" class="browser-style">
-    <option value="github">GitHub Default</option>
-    <option value="halloween">Halloween</option>
-    <option disabled>──────────</option>
-    <option value="amber">Amber</option>
-    <option value="blue">Blue</option>
-    <option value="bluegrey">Blue Grey</option>
-    <option value="brown">Brown</option>
-    <option value="cyan">Cyan</option>
-    <option value="deeporange">Deep Orange</option>
-    <option value="deeppurple">Deep Purple</option>
-    <option value="green">Green</option>
-    <option value="grey">Grey</option>
-    <option value="indigo">Indigo</option>
-    <option value="lightblue">Light Blue</option>
-    <option value="lightgreen">Light Green</option>
-    <option value="lime">Lime</option>
-    <option value="orange">Orange</option>
-    <option value="pink">Pink</option>
-    <option value="purple">Purple</option>
-    <option value="red">Red</option>
-    <option value="teal">Teal</option>
-    <option value="yellowMd">Yellow</option>
-    <option disabled>──────────</option>
-    <option value="summer">Summer</option>
-    <option value="sunset">Sunset</option>
-    <option value="unicorn">Unicorn</option>
-    <option disabled>──────────</option>
-    <option value="moon">Moon</option>
-    <option value="psychedelic">Psychedelic</option>
-    <option value="yellow">Yellow</option>
-  </select>
+  <div id="content">
+    <img id="logo" src="images/icon-48.png" alt="logo" />
+    <h1 id="header">GitHub Contribution Color Graph Options</h1>
 
-  <br />
-  <br />
-  <div id="status" style="color:green"></div>
-  <br />
-  <button id="save" class="browser-style">Save</button>
+    <p>Choose graph color</p>
+    <p>
+      <select id="color">
+        <option value="github">GitHub Default</option>
+        <option value="halloween">Halloween</option>
+        <option disabled>──────────</option>
+        <option value="amber">Amber</option>
+        <option value="blue">Blue</option>
+        <option value="bluegrey">Blue Grey</option>
+        <option value="brown">Brown</option>
+        <option value="cyan">Cyan</option>
+        <option value="deeporange">Deep Orange</option>
+        <option value="deeppurple">Deep Purple</option>
+        <option value="green">Green</option>
+        <option value="grey">Grey</option>
+        <option value="indigo">Indigo</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="lime">Lime</option>
+        <option value="orange">Orange</option>
+        <option value="pink">Pink</option>
+        <option value="purple">Purple</option>
+        <option value="red">Red</option>
+        <option value="teal">Teal</option>
+        <option value="yellowMd">Yellow</option>
+        <option disabled>──────────</option>
+        <option value="summer">Summer</option>
+        <option value="sunset">Sunset</option>
+        <option value="unicorn">Unicorn</option>
+        <option disabled>──────────</option>
+        <option value="moon">Moon</option>
+        <option value="psychedelic">Psychedelic</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </p>
+
+    <hr />
+
+    <button id="save">Save my preference</button>
+    <span id="status"></span>
+  </div>
 
   <script src="js/options.js"></script>
 </body>
