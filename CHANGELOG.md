@@ -1,6 +1,12 @@
 Changelog
 =========
 
+### v1.6.0 / 2019-12-02
+
+  - Add sunset theme
+  - Add option page
+  - Update dev dependencies
+
 ### v1.5.3 / 2018-12-04
 
   - Colorize progress bar only on profile (to avoid error elsewhere)
