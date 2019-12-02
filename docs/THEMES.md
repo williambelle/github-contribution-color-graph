@@ -93,6 +93,10 @@ Themes
 
 ![Summer](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-summer.png)
 
+**Sunset**
+
+![Sunset](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-sunset.png)
+
 **Unicorn**
 
 ![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
