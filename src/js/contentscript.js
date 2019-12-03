@@ -68,6 +68,8 @@ var colors = {
   yellow: yellow
 };
 
+var randomColor = randomProperty(colors);
+
 function hex (x) {
   return ('0' + parseInt(x).toString(16)).slice(-2);
 }
@@ -75,6 +77,11 @@ function hex (x) {
 function rgb2hex (rgb) {
   rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
   return '#' + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
+
+function randomProperty (obj) {
+  var keys = Object.keys(obj);
+  return keys[keys.length * Math.random() << 0];
 }
 
 function applyColorToRects (color) {
@@ -148,6 +155,8 @@ function applyOptions () {
   chrome.storage.local.get('favoriteColor', function (color) {
     if (!color.favoriteColor) {
       color.favoriteColor = 'halloween';
+    } else if (color.favoriteColor === 'random') {
+      color.favoriteColor = randomColor;
     }
     applyColorToRects(colors[color.favoriteColor]);
     applyColorToLegend(colors[color.favoriteColor]);
