@@ -13,9 +13,6 @@
   <a href="https://david-dm.org/williambelle/github-contribution-color-graph">
     <img alt="Dependency Status" src="https://david-dm.org/williambelle/github-contribution-color-graph/status.svg"/>
   </a>
-  <a href="https://github.com/williambelle/github-contribution-color-graph/issues">
-    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/williambelle/github-contribution-color-graph.svg">
-  </a>
   <a href="https://raw.githubusercontent.com/williambelle/github-contribution-color-graph/master/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   </a>
@@ -37,6 +34,12 @@ Features:
   * Colorize activity overview graph
   * Colorize activity listing progress bar
 
+Options:
+
+  * GitHub themes
+  * Material Design themes
+  * Random theme
+
 Install
 -------
 
@@ -47,7 +50,7 @@ Install
 or
 
   1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
-  2. visit `chrome://extensions` in Chrome and drag the folder.
+  2. visit `chrome://extensions` in Chrome or Opera or Edge Chromium and drag the folder.
 
 Screenshots
 -----------
