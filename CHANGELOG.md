@@ -1,6 +1,10 @@
 Changelog
 =========
 
+### v1.7.0 / 2019-12-04
+
+  - Add random theme option
+
 ### v1.6.0 / 2019-12-02
 
   - Add sunset theme
