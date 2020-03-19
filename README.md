@@ -43,14 +43,14 @@ Options:
 Install
 -------
 
+[link-ch]:https://chrome.google.com/webstore/detail/github-contribution-color/cfilkjdlgdiclmdfdggjommndffiibbe
 [link-ff]:https://addons.mozilla.org/en-US/firefox/addon/github-contribution-color/
+[link-op]:https://addons.opera.com/en/extensions/details/install-chrome-extensions/
 
+  * [**Chrome** extension][link-ch] - [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cfilkjdlgdiclmdfdggjommndffiibbe.svg?label=%20">][link-ch]
   * [**Firefox** add-on][link-ff] - [<img valign="middle" src="https://img.shields.io/amo/v/github-contribution-color.svg?label=%20">][link-ff]
 
-or
-
-  1. download the [latest release](https://github.com/williambelle/github-contribution-color-graph/releases/latest)
-  2. visit `chrome://extensions` in Chrome or Opera or Edge Chromium and drag the folder.
+The Chrome version also works in Opera (using [this][link-op]) and Edge.
 
 Screenshots
 -----------
