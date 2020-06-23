@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "William Belle <william.belle@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/williambelle/github-contribution-color-graph.git",
+  "repository": "williambelle/github-contribution-color-graph",
   "engines": {
     "node": ">=10"
   },
