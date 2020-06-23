@@ -104,7 +104,7 @@ function applyColorToLegend (color) {
     var lis = doc[0].getElementsByTagName('li');
 
     for (var i = 1, l = lis.length; i < l; i++) {
-      lis[i].style.backgroundColor = color[i];
+      lis[i].style.setProperty('background-color', color[i], 'important');
     }
   }
 }
