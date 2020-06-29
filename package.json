@@ -1,7 +1,7 @@
 {
   "name": "github-contribution-color-graph",
   "private": true,
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Change colors of contribution graph in GitHub",
   "keywords": [],
   "author": "William Belle <william.belle@gmail.com>",
