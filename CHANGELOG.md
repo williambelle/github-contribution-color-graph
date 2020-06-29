@@ -1,6 +1,11 @@
 Changelog
 =========
 
+### v1.7.1 / 2020-06-29
+
+  - Fix compatibility with the new Github UI
+  - Update dev dependencies
+
 ### v1.7.0 / 2019-12-04
 
   - Add random theme option
