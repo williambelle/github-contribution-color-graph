@@ -1,7 +1,7 @@
 'use strict';
 
 // Themes from GitHub
-var github      = ['#eeeeee', '#c6e48b', '#7bc96f', '#239a3b', '#196127'];
+var github      = ['#eeeeee', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
 var halloween   = ['#eeeeee', '#fdf156', '#ffc722', '#ff9711', '#04001b'];
 
 // Themes from Material design
