@@ -5,12 +5,7 @@
   },
   "env": {
     "browser": true,
-    "mocha": true,
     "webextensions": true
-  },
-  "globals": {
-    "hex": true,
-    "rgb2hex": true
   },
   "rules": {
     "max-len": [2, 80],

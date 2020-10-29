@@ -17,7 +17,6 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-node": "^11.1.0",
@@ -27,7 +26,6 @@
     "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-mocha": "^1.2.0",
     "load-grunt-config": "^3.0.1",
     "grunt-eslint": "^23.0.0"
   }
