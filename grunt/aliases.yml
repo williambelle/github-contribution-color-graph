@@ -1,6 +1,5 @@
 test:
   - 'eslint'
-  - 'mocha'
 
 build:
   - 'test'

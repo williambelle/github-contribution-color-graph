@@ -68,32 +68,27 @@ var colors = {
   yellow: yellow
 };
 
+var cssGitHubVars = [
+  '--color-calendar-graph-day-bg',
+  '--color-calendar-graph-day-L1-bg',
+  '--color-calendar-graph-day-L2-bg',
+  '--color-calendar-graph-day-L3-bg',
+  '--color-calendar-graph-day-L4-bg'
+];
+
 var randomColor = randomProperty(colors);
-
-function hex (x) {
-  return ('0' + parseInt(x).toString(16)).slice(-2);
-}
-
-function rgb2hex (rgb) {
-  rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-  return '#' + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
-}
 
 function randomProperty (obj) {
   var keys = Object.keys(obj);
   return keys[keys.length * Math.random() << 0];
 }
 
-function applyColorToRects (color) {
-  var rects = document.getElementsByTagName('rect');
-
-  for (var i = 0, l = rects.length; i < l; i++) {
-    var fill = rects[i].getAttribute('fill');
-    for (var x = 0, y = github.length; x < y; x++) {
-      if (fill === github[x]) {
-        rects[i].style.fill = color[x];
-      }
-    }
+function applyColorToCssGitHubVars (color) {
+  for (var i = 0, l = cssGitHubVars.length; i < l; i++) {
+    document.documentElement.style.setProperty(
+      cssGitHubVars[i],
+      color[i]
+    );
   }
 }
 
@@ -133,24 +128,6 @@ function applyColorToActivity (color) {
   }
 }
 
-function applyColorToProgressBar (color) {
-  var activityListing = document.getElementsByClassName(
-    'activity-listing contribution-activity'
-  );
-  if (activityListing[0]) {
-    var progress = document.getElementsByClassName('progress-bar');
-
-    for (var i = 0, l = progress.length; i < l; i++) {
-      var background = rgb2hex(progress[i].style.backgroundColor);
-      for (var x = 0, y = github.length; x < y; x++) {
-        if (background === github[x]) {
-          progress[i].style.backgroundColor = color[x];
-        }
-      }
-    }
-  }
-}
-
 function applyOptions () {
   chrome.storage.local.get('favoriteColor', function (color) {
     if (!color.favoriteColor) {
@@ -158,12 +135,9 @@ function applyOptions () {
     } else if (color.favoriteColor === 'random') {
       color.favoriteColor = randomColor;
     }
-    applyColorToRects(colors[color.favoriteColor]);
+    applyColorToCssGitHubVars(colors[color.favoriteColor]);
     applyColorToLegend(colors[color.favoriteColor]);
     applyColorToActivity(colors[color.favoriteColor]);
-    setTimeout(function () {
-      applyColorToProgressBar(colors[color.favoriteColor]);
-    }, 1000);
   });
 }
 
