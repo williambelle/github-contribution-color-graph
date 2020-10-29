@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/williambelle/github-contribution-color-graph">
-    <img alt="Travis Status" src="https://travis-ci.org/williambelle/github-contribution-color-graph.svg?branch=master">
+  <a href="https://travis-ci.com/williambelle/github-contribution-color-graph">
+    <img alt="Travis Status" src="https://travis-ci.com/williambelle/github-contribution-color-graph.svg?branch=master">
   </a>
   <a href="https://david-dm.org/williambelle/github-contribution-color-graph">
     <img alt="Dependency Status" src="https://david-dm.org/williambelle/github-contribution-color-graph/status.svg"/>
