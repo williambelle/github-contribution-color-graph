@@ -1,6 +1,13 @@
 Changelog
 =========
 
+### v1.7.2 / 2020-10-30
+
+  - Fix contribution graph and progress bar colors (new GitHub CSS variables)
+  - Fix Firefox strict_min_version
+  - Migrate travis-ci.org to .com
+  - Test against Node.js 14 in Travis CI
+
 ### v1.7.1 / 2020-06-29
 
   - Fix compatibility with the new Github UI
