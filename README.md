@@ -3,7 +3,7 @@
 - ## 1. Download this project
 - ## 2. Open your browser(chrome, chromiun, new edge) and go 'chrome://extensions'
 - ## 3. And Click '압축해제된 확장 프로그램을 로드합니다' text, first button.
-- ## 4. upload your src folder from 1. step
+- ## 4. upload your 'src' folder in (1. step)
 - ## 5. Just finish. Go github profile! You can see changed contributions color. 🥰
 
 <p align="center">
