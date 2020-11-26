@@ -128,6 +128,17 @@ function applyColorToActivity (color) {
   }
 }
 
+function changeContributionsColor(color) {
+  document.querySelectorAll("rect").forEach((element) => {
+    const colorIndex = github.findIndex(
+      (githubColor) => githubColor === element.getAttribute("fill")
+    );
+    if (colorIndex !== -1) {
+      element.setAttribute("fill", color[colorIndex]);
+    }
+  });
+}
+
 function applyOptions () {
   chrome.storage.local.get('favoriteColor', function (color) {
     if (!color.favoriteColor) {
@@ -135,9 +146,10 @@ function applyOptions () {
     } else if (color.favoriteColor === 'random') {
       color.favoriteColor = randomColor;
     }
-    applyColorToCssGitHubVars(colors[color.favoriteColor]);
+    // applyColorToCssGitHubVars(colors[color.favoriteColor]);
     applyColorToLegend(colors[color.favoriteColor]);
     applyColorToActivity(colors[color.favoriteColor]);
+    changeContributionsColor(colors[color.favoriteColor]);
   });
 }
 
