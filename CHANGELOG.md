@@ -1,6 +1,10 @@
 Changelog
 =========
 
+### v1.7.3 / 2020-11-26
+
+ - Fix not apply Contribution colors bug.
+
 ### v1.7.2 / 2020-10-30
 
   - Fix contribution graph and progress bar colors (new GitHub CSS variables)
