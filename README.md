@@ -30,7 +30,7 @@ A Web Extension to change colors of contribution graph in GitHub.
 
 Features:
 
-  * Support for Github Dark Mode
+  * Colorize with support for Github Dark Mode
   * Colorize contribution graph and legend
   * Colorize activity overview graph
   * Colorize activity listing progress bar
