@@ -22,7 +22,7 @@ function restoreOptions () {
   });
 }
 
-function preview(color) {
+function preview (color) {
   const imgPreview = document.createElement('img');
   const imgExist = document.querySelector('#img-preview');
 
@@ -30,9 +30,9 @@ function preview(color) {
     imgExist.parentNode.removeChild(imgExist);
   }
 
-  if (color != 'random') {
-    imgPreview.src = `../assets/contributions-${color}.png`
-    imgPreview.className = 'preview'
+  if (color !== 'random') {
+    imgPreview.src = `../assets/contributions-${color}.png`;
+    imgPreview.className = 'preview';
     imgPreview.alt = color;
     imgPreview.id = 'img-preview';
 
@@ -40,7 +40,7 @@ function preview(color) {
   } else {
     const imgNExist = document.createElement('p');
 
-    imgNExist.innerText = "Doesn't have a preview of this theme."
+    imgNExist.innerText = "Doesn't have a preview of this theme.";
     imgNExist.id = 'img-preview';
 
     document.getElementById('preview').appendChild(imgNExist);
@@ -48,7 +48,7 @@ function preview(color) {
 }
 
 function loadPreview () {
-  let color = document.getElementById('color').value;
+  const color = document.getElementById('color').value;
   preview(color);
 }
 
