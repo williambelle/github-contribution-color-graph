@@ -31,7 +31,7 @@ function preview (color) {
   }
 
   if (color !== 'random') {
-    imgPreview.src = `../assets/contributions-${color}.png`;
+    imgPreview.src = `/images/theme/contributions-${color}.png`;
     imgPreview.className = 'preview';
     imgPreview.alt = color;
     imgPreview.id = 'img-preview';
