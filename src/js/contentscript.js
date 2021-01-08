@@ -84,7 +84,7 @@ function randomProperty (obj) {
 }
 
 function applyColorToCssGitHubVars (color) {
-  for (var i = 0, l = cssGitHubVars.length; i < l; i++) {
+  for (var i = 1, l = cssGitHubVars.length; i < l; i++) {
     document.documentElement.style.setProperty(
       cssGitHubVars[i],
       color[i]

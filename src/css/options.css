@@ -67,3 +67,9 @@ button {
 button:hover {
   color: black;
 }
+
+.preview {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
