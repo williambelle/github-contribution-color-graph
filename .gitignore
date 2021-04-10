@@ -39,3 +39,4 @@ jspm_packages
 .DS_Store
 dist
 package
+web-ext-profile
