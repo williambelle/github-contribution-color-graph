@@ -1,43 +1,28 @@
-body {
-  background-color: #EEE;
-  font-family: arial, sans-serif;
-  font-size: 13px
 }
 
 #content {
-  background-color: white;
-  border: 1px solid #DDD;
-  margin: 40px auto 20px;
-  padding: 12px;
-  width: 500px;
-  -webkit-border-radius: 12px;
-  box-shadow: 0px 0px 10px #DDD;
+  margin: 1em auto;
+  text-align: center;
 }
 
-p {
-  font-size: 12px;
+#content span {
+  margin-right: 1em;
 }
 
 hr {
   border: 1px solid #EEE;
-  border-bottom: none;
-  margin: 10px 0px;
 }
 
 #status {
   color: green;
+  text-align: center;
+  margin: auto;
 }
 
 button {
   cursor: pointer;
-  background-image: linear-gradient(white, #EEE);
   color: #333;
-  border: 1px solid #CCC;
-  border-radius: 2px;
-  margin: 0px 1px 0px 0px;
-  outline: none;
   min-height: 2em;
-  text-align: center;
 }
 
 button:hover {
