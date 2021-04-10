@@ -14,30 +14,6 @@ body {
   box-shadow: 0px 0px 10px #DDD;
 }
 
-#logo {
-  margin: -5px 10px -5px 0;
-  width: 32px;
-  float: left;
-}
-
-h1 {
-  color: #333;
-  font-size: 1.5em;
-  margin: 0.7em 0 0;
-}
-
-#header {
-  background: linear-gradient(white, #EEE);
-  padding: 15px 0px 10px 10px;
-  height: 30px;
-  border-bottom: 1px solid #DDD;
-  margin: -12px -12px 20px -12px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  text-shadow: 1px 1px 1px white;
-  color: #666;
-}
-
 p {
   font-size: 12px;
 }
