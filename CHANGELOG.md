@@ -1,6 +1,9 @@
 Changelog
 =========
 
+### unreleased
+  - use browser built-in `options_ui`
+
 ### v1.7.2 / 2020-10-30
 
   - Fix contribution graph and progress bar colors (new GitHub CSS variables)
