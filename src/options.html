@@ -8,12 +8,8 @@
 
 <body>
   <div id="content">
-    <img id="logo" src="images/icon-48.png" alt="logo" />
-    <h1 id="header">GitHub Contribution Color Graph Options</h1>
-
-    <p>Choose graph color</p>
-    <p>
-      <select id="color">
+      <span>Graph Color</span>
+      <select class="browser-style" id="color">
         <option value="github">GitHub Default</option>
         <option value="halloween">Halloween</option>
         <option disabled>──────────</option>
@@ -47,11 +43,10 @@
         <option disabled>──────────</option>
         <option value="random">Random</option>
       </select>
-    </p>
 
     <hr />
 
-    <button id="save">Save my preference</button>
+    <button class="browser-style" id="save">Save preference</button>
     <span id="status"></span>
   </div>
 
