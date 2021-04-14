@@ -14,7 +14,7 @@
     "build": "grunt build",
     "package": "grunt package",
     "serve": "grunt serve",
-    "test": "grunt test",
+    "test": "eslint src",
     "web-ext:firefox": "web-ext run --target firefox-desktop"
   },
   "devDependencies": {
@@ -27,7 +27,6 @@
     "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^23.0.0",
     "load-grunt-config": "^3.0.1",
     "web-ext": "^6.0.0"
   },

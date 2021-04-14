@@ -1,8 +1,4 @@
-test:
-  - 'eslint'
-
 build:
-  - 'test'
   - 'copy:buildChrome'
   - 'copy:buildFirefox'
 
