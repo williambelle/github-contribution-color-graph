@@ -1,8 +1,2 @@
 package:
   - 'compress'
-
-serve:
-  - 'watch'
-
-default:
-  - 'serve'

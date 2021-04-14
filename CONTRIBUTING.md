@@ -20,33 +20,27 @@ Test
 npm t
 ```
 
-Serve
------
-
-```bash
-npm run serve
-```
-
-to update source continuously.
-
 Run
 ---
 
 Chrome:
 
-1. Open Tools -> Extensions
-2. Check the "Developer Mode" option (if not already)
-3. Select "Load unpacked extension"
-4. Navigate to the project `github-contribution-color-graph/src` and click select
+```bash
+npm run -- serve:chromium
+```
+
+This will open a new chromium browser window with a temporary profile
+and the web extension already loaded.
 
 Firefox:
 
-1. Open Tools -> Add-ons
-2. Click "Debug Add-ons"
-3. Check the "Enable add-on debugging" option (if not already)
-4. Select "Load Temporary Add-on"
-5. Navigate to the project `github-contribution-color-graph/src` and click open
-  
+```bash
+npm run -- serve:firefox
+```
+
+This will open a new firefox browser window with a temporary profile
+and the web extension already loaded.
+
 Opera:
 
 1. View -> Show Extensions
