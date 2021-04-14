@@ -4,6 +4,13 @@
   "manifest_version": 2,
   "version": "1.7.2",
 
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0",
+      "id": "github-contribution-color-graph@example.com"
+    }
+  },
+
   "content_scripts": [{
     "js": [ "js/contentscript.js" ],
     "matches": [ "https://github.com/*" ],
