@@ -11,7 +11,6 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "grunt build",
     "package": "grunt package",
     "serve": "grunt serve",
     "test": "eslint src",
@@ -25,13 +24,12 @@
     "eslint-plugin-standard": "^4.0.1",
     "grunt": "^1.1.0",
     "grunt-contrib-compress": "^1.6.0",
-    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "load-grunt-config": "^3.0.1",
     "web-ext": "^6.0.0"
   },
   "webExt": {
-    "sourceDir": "dist/firefox",
+    "sourceDir": "src",
     "run": {
       "profileCreateIfMissing": true,
       "keepProfileChanges": true,

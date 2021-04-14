@@ -1,13 +1,7 @@
-build:
-  - 'copy:buildChrome'
-  - 'copy:buildFirefox'
-
 package:
-  - 'build'
   - 'compress'
 
 serve:
-  - 'build'
   - 'watch'
 
 default:
