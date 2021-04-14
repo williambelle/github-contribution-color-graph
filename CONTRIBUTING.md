@@ -13,59 +13,40 @@ Setup
 npm i
 ```
 
-Test
-----
-
-```bash
-npm t
-```
-
-Build
------
-
-```bash
-npm run build
-```
-
-or
-
-```bash
-npm run serve
-```
-
-to update source continuously.
-
 Run
 ---
 
 Chrome:
 
-1. Open Tools -> Extensions
-2. Check the "Developer Mode" option (if not already)
-3. Select "Load unpacked extension"
-4. Navigate to the project `github-contribution-color-graph/dist/chrome` and click select
+```bash
+npm run -- serve:chromium
+```
+
+This will open a new chromium browser window with a temporary profile
+and the web extension already loaded.
 
 Firefox:
 
-1. Open Tools -> Add-ons
-2. Click "Debug Add-ons"
-3. Check the "Enable add-on debugging" option (if not already)
-4. Select "Load Temporary Add-on"
-5. Navigate to the project `github-contribution-color-graph/dist/firefox` and click open
-  
+```bash
+npm run -- serve:firefox
+```
+
+This will open a new firefox browser window with a temporary profile
+and the web extension already loaded.
+
 Opera:
 
 1. View -> Show Extensions
 2. Click on "Developer Mode" button (if not already)
 3. Click on "Load Unpacked Extension..."
-4. Navigate to the project `github-contribution-color-graph/dist/chrome` and click select
-  
+4. Navigate to the project `github-contribution-color-graph/src` and click select
+
 Edge Chromium:
 
 1. `...` -> Extensions
 2. Click on "Developer Mode" button (if not already)
 3. Click on "Load Unpacked"
-4. Navigate to the project `github-contribution-color-graph/dist/chrome` and click select
+4. Navigate to the project `github-contribution-color-graph/src` and click select
 
 Package
 -------
@@ -73,6 +54,11 @@ Package
 ```bash
 npm run package
 ```
+
+Note : The `package` script is maintained for backward-compatibility.
+The web extension can now be packaged with the built-in `npm pack`
+command which generates a neat tarball with the required files. Usage
+of the `npm pack` command is encouraged over `npm run -- package`.
 
 License
 -------
