@@ -10,8 +10,9 @@
   "engines": {
     "node": ">=10"
   },
+  "files": [ "src" ],
   "scripts": {
-    "package": "grunt package",
+    "package": "npm pack",
     "serve:firefox": "web-ext run --target firefox-desktop",
     "serve:chromium": "web-ext run --target chromium",
     "test": "eslint src"
@@ -23,7 +24,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "grunt": "^1.1.0",
-    "grunt-contrib-compress": "^1.6.0",
     "load-grunt-config": "^3.0.1",
     "web-ext": "^6.0.0"
   },

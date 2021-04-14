@@ -62,6 +62,11 @@ Package
 npm run package
 ```
 
+Note : The `package` script is maintained for backward-compatibility.
+The web extension can now be packaged with the built-in `npm pack`
+command which generates a neat tarball with the required files. Usage
+of the `npm pack` command is encouraged over `npm run -- package`.
+
 License
 -------
 
