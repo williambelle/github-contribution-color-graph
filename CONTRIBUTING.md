@@ -13,13 +13,6 @@ Setup
 npm i
 ```
 
-Test
-----
-
-```bash
-npm t
-```
-
 Run
 ---
 

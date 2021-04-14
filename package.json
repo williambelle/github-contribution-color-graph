@@ -15,7 +15,7 @@
     "package": "npm pack",
     "serve:firefox": "web-ext run --target firefox-desktop",
     "serve:chromium": "web-ext run --target chromium",
-    "test": "eslint src"
+    "lint": "eslint src"
   },
   "devDependencies": {
     "eslint-config-standard": "^14.1.1",
