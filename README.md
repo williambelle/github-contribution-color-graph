@@ -23,63 +23,64 @@
 
 ---
 
-Overview
---------
+## Usage
+
+| FireFox                           | Google Chrome                   |
+| --------------------------------- | ------------------------------- |
+| 1. Go to about:addons             | 1. Go to chrome://extensions/   |
+| 2. Click on "…" and "Preferences" | 2. Click on "Details"           |
+| :car:                             | 3. Click on "Extension options" |
+
+---
 
 A Web Extension to change colors of contribution graph in GitHub.
 
 Features:
 
-  * Colorize contribution graph and legend
-  * Colorize activity overview graph
-  * Colorize activity listing progress bar
+- Colorize contribution graph and legend
+- Colorize activity overview graph
+- Colorize activity listing progress bar
 
 Options:
 
-  * GitHub themes
-  * Material Design themes
-  * Random theme
+- GitHub themes
+- Material Design themes
+- Random theme
 
-Install
--------
+## Install
 
-[link-ch]:https://chrome.google.com/webstore/detail/github-contribution-color/cfilkjdlgdiclmdfdggjommndffiibbe
-[link-ff]:https://addons.mozilla.org/en-US/firefox/addon/github-contribution-color/
-[link-op]:https://addons.opera.com/en/extensions/details/install-chrome-extensions/
+[link-ch]: https://chrome.google.com/webstore/detail/github-contribution-color/cfilkjdlgdiclmdfdggjommndffiibbe
+[link-ff]: https://addons.mozilla.org/en-US/firefox/addon/github-contribution-color/
+[link-op]: https://addons.opera.com/en/extensions/details/install-chrome-extensions/
 
-  * [**Chrome** extension][link-ch] - [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cfilkjdlgdiclmdfdggjommndffiibbe.svg?label=%20">][link-ch]
-  * [**Firefox** add-on][link-ff] - [<img valign="middle" src="https://img.shields.io/amo/v/github-contribution-color.svg?label=%20">][link-ff]
+- [**Chrome** extension][link-ch] - [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cfilkjdlgdiclmdfdggjommndffiibbe.svg?label=%20">][link-ch]
+- [**Firefox** add-on][link-ff] - [<img valign="middle" src="https://img.shields.io/amo/v/github-contribution-color.svg?label=%20">][link-ff]
 
 The Chrome version also works in Opera (using [this][link-op]) and Edge.
 
-Screenshots
------------
+## Screenshots
 
 See all available themes [here](docs/THEMES.md).
 
-Halloween                           |  Blue
-:----------------------------------:|:--------------------------------------:		
-![Halloween](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-halloween.png)|![Blue](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png)
+|                                                         Halloween                                                         |                                                      Blue                                                       |
+| :-----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+| ![Halloween](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-halloween.png) | ![Blue](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-blue.png) |
 
-Pink                                |  Unicorn
-:----------------------------------:|:--------------------------------------:		
-![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png)|![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png)
+|                                                      Pink                                                       |                                                        Unicorn                                                        |
+| :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+| ![Pink](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-pink.png) | ![Unicorn](https://raw.github.com/williambelle/github-contribution-color-graph/master/docs/contributions-unicorn.png) |
 
-
-Contributing
-------------
+## Contributing
 
 Contributions are always welcome.
 
 See [Contributing](CONTRIBUTING.md).
 
-Contributors
-------------
+## Contributors
 
-  * [MoonAntonio](https://github.com/MoonAntonio)
-  * [puroong](https://github.com/puroong)
+- [MoonAntonio](https://github.com/MoonAntonio)
+- [puroong](https://github.com/puroong)
 
-License
--------
+## License
 
 The MIT License (MIT)
